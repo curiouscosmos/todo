@@ -1,0 +1,68 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# .NET build output
+**/bin/
+**/obj/
+TestResults/
+**/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.user
+*.suo
+*.rsuser
+
+# Local SQLite data
+backend/Kanban.Todo.Api/App_Data/*.db
+backend/Kanban.Todo.Api/App_Data/*.db-*
+backend/Kanban.Todo.Api/App_Data/*.sqlite
+backend/Kanban.Todo.Api/App_Data/*.sqlite-*
+
+# Node / package manager artifacts
+node_modules/
+**/node_modules/
+.pnpm-store/
+.npm/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.pnp
+.pnp.*
+
+# Next.js / frontend build output
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/coverage/
+frontend/.vercel/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Generic coverage / cache output
+coverage/
+.cache/
+dist/
+tmp/
+temp/

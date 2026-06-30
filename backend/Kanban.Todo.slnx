@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Kanban.Todo.Api.Tests/Kanban.Todo.Api.Tests.csproj" />
+  <Project Path="Kanban.Todo.Api/Kanban.Todo.Api.csproj" />
+</Solution>

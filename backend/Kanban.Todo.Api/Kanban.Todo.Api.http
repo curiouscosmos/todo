@@ -1,0 +1,6 @@
+@Kanban.Todo.Api_HostAddress = http://localhost:5121
+
+GET {{Kanban.Todo.Api_HostAddress}}/health
+Accept: application/json
+
+###
